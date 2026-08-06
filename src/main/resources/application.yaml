@@ -1,3 +1,28 @@
 spring:
   application:
     name: p-62-mission-1-260730
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    url: jdbc:h2:./db_dev;MODE=MySQL
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        highlight_sql: true
+        use_sql_comments: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    org.hibernate.orm.jdbc.bind: TRACE
+    org.hibernate.orm.jdbc.extract: TRACE
+
+server:
+  port: 8080
