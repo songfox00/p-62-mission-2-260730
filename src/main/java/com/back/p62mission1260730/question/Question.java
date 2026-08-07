@@ -1,5 +1,6 @@
-package com.back.p62mission1260730;
+package com.back.p62mission1260730.question;
 
+import com.back.p62mission1260730.answer.Answer;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

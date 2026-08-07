@@ -1,4 +1,4 @@
-package com.back.p62mission1260730;
+package com.back.p62mission1260730.question;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

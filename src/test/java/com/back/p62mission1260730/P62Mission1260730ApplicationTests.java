@@ -1,5 +1,9 @@
 package com.back.p62mission1260730;
 
+import com.back.p62mission1260730.answer.Answer;
+import com.back.p62mission1260730.answer.AnswerRepository;
+import com.back.p62mission1260730.question.Question;
+import com.back.p62mission1260730.question.QuestionRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
