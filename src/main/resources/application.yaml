@@ -23,6 +23,4 @@ logging:
   level:
     org.hibernate.orm.jdbc.bind: TRACE
     org.hibernate.orm.jdbc.extract: TRACE
-
-server:
-  port: 8080
+    org.springframework.transaction.interceptor: TRACE
