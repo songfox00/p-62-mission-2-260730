@@ -20,6 +20,8 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-webmvc")
+    implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
+    implementation ("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:4.0.0")
     compileOnly("org.projectlombok:lombok")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.projectlombok:lombok")
@@ -30,6 +32,7 @@ dependencies {
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     testAnnotationProcessor("org.projectlombok:lombok")
     implementation ("org.springframework.boot:spring-boot-starter-data-jpa")
+
 }
 
 tasks.withType<Test> {
